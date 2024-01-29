@@ -38,7 +38,7 @@ module "service_plan" {
   client_name         = "test"
   environment         = "test"
   location            = local.location
-  location_short      = "eus"
+  location_short      = "uks"
   resource_group_name = azurerm_resource_group.rgai.name
   stack               = "stck"
 
@@ -54,7 +54,7 @@ module "linux_web_app" {
   client_name         = "test"
   environment         = "test"
   location            = local.location
-  location_short      = "eus"
+  location_short      = "uks"
   resource_group_name = azurerm_resource_group.rgai.name
   stack               = "stck"
 

@@ -4,12 +4,15 @@ resource "azurerm_resource_group" "rgai" {
   location = local.location
 }
 
+resource "random_id" "storage_account" {
+  byte_length = 8
+}
 
 resource "azurerm_storage_account" "assets_storage" {
   account_replication_type = "LRS"
   account_tier             = "Standard"
   location                 = local.location
-  name                     = "appserviceassetlz"
+  name                     = "appsvcalz${lower(random_id.storage_account.hex)}"
   resource_group_name      = azurerm_resource_group.rgai.name
   min_tls_version          = "TLS1_2"
 }

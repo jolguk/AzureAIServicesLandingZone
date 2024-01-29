@@ -3,7 +3,7 @@ locals {
   name_prefix = lower(var.name_prefix)
   name_suffix = lower(var.name_suffix)
 
-  app_service_name  = coalesce(var.app_service_custom_name, azurecaf_name.app_service_web.result, var.app_service_random_id)
+  app_service_name  = coalesce(var.app_service_custom_name, azurecaf_name.app_service_web.result, var.environment)
 
   staging_slot_name = coalesce(var.staging_slot_custom_name, "staging-slot")
 

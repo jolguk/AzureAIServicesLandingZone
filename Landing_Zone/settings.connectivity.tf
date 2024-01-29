@@ -12,7 +12,7 @@ locals {
           config = {
             address_space                = ["10.100.0.0/16", ]
             location                     = local.location
-            resource_group_name          = "es-connectivity-eastus"
+            resource_group_name          = "es-connectivity-uksouth"
             link_to_ddos_protection_plan = false
             dns_servers                  = []
             bgp_community                = ""
@@ -193,7 +193,7 @@ locals {
       custom_settings_by_resource_type = {
         azurerm_subnet = {
           connectivity = {
-            canadaeast = {             # replace eastus with the location you are using
+            uksouth = {             # replace eastus with the location you are using
               inboundsubnetdns = { # replace subnet_name with the name of the subnet you want to configure and repeat this block for each subnet you need to configure
 
                 delegation = [ # add multiple entries to this list if multiple delegations are needed

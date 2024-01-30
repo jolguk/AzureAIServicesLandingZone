@@ -21,7 +21,8 @@
               "westus",
               "northcentralus",
               "southcentralus",
-              "canadaeast"
+              "canadaeast",
+              "uksouth"
             ]
           },
           "Deny-RSG-Locations": {
@@ -31,7 +32,8 @@
               "westus",
               "northcentralus",
               "southcentralus",
-              "canadaeast"
+              "canadaeast",
+              "uksouth"
             ]
           }
         },

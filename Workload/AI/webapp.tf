@@ -36,7 +36,7 @@ module "service_plan" {
 
 
   client_name         = "test"
-  environment         = "test"
+  environment         = var.environment
   location            = local.location
   location_short      = "uks"
   resource_group_name = azurerm_resource_group.rgai.name
@@ -52,7 +52,7 @@ module "linux_web_app" {
   source = "../../Modules/Core/linux_web_app/modules/linux-web-app"
 
   client_name         = "test"
-  environment         = "test"
+  environment         = var.environment
   location            = local.location
   location_short      = "uks"
   resource_group_name = azurerm_resource_group.rgai.name

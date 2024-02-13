@@ -1,0 +1,10 @@
+connectivity_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
+management_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
+identity_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
+ai_lz_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
+location = "uksouth"
+email_security_contact = "johealy@microsoft.com"
+log_retention_in_days = 30
+management_resources_tags = {}
+scope_management_group = "contoso corp"
+spoke_peerings =[] # We will update this later, after deploying the spo

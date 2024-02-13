@@ -1,7 +1,7 @@
-connectivity_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
-management_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
-identity_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
-ai_lz_subscription = "f7f7f0b4-1299-429b-8927-12f2c5881db2"
+connectivity_subscription = "4f8d96c5-d3db-413a-8e01-5e3728dd04b2"
+management_subscription = "4f8d96c5-d3db-413a-8e01-5e3728dd04b2"
+identity_subscription = "4f8d96c5-d3db-413a-8e01-5e3728dd04b2"
+ai_lz_subscription = "4f8d96c5-d3db-413a-8e01-5e3728dd04b2"
 location = "uksouth"
 email_security_contact = "johealy@microsoft.com"
 log_retention_in_days = 30

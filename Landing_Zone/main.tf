@@ -15,20 +15,22 @@ provider "azurerm" {
 
 provider "azurerm" {
  alias           = "connectivity"
-  subscription_id = var.connectivity_subscription
-  skip_provider_registration = true
+ subscription_id = var.connectivity_subscription
+ skip_provider_registration = true
  features {}
 }
 
 provider "azurerm" {
   alias           = "management"
   subscription_id = var .management_subscription
+  skip_provider_registration = true
   features {}
 } 
 
 provider "azurerm" {
   alias           = "identity"
   subscription_id = var.identity_subscription
+  skip_provider_registration = true
   features {}
 } 
 
